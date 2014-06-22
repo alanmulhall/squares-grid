@@ -2,7 +2,6 @@
  * Creative Coding - Monash Uni course
  * Week 2, 03 - n squares
  * by Alan Mulhall
- * 
  */
   
 int randomColor = (int) random(5);
