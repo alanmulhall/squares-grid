@@ -10,6 +10,7 @@ void setup() {
   size(600, 600);
   rectMode(CORNER);
   noStroke();
+  randomSeed(hour() + minute() + second() + millis());
   frameRate(1);  // set the frame rate to 1 draw() call per second
 }
 
