@@ -41,6 +41,3 @@ void draw() {
     
 } //end of draw 
 
-  
-
-
