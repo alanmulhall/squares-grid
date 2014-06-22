@@ -4,8 +4,6 @@
  * by Alan Mulhall
  */
   
-int randomColor = (int) random(5);
-
 void setup() {
   size(600, 600);
   rectMode(CORNER);
@@ -18,7 +16,8 @@ void setup() {
 void draw() {
   background(180); // clear the screen to grey  
   int num = 5; 
-  int gap = 3; 
+  int gap = 3;
+  int randomColor; 
   
   // calculate the size of each square for the given number of squares and gap between them
   float cellsize = ( width - (num + 1) * gap ) / (float)num; 
